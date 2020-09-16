@@ -7,12 +7,22 @@ function inputLength () {
 }
 
 function createListElement() {
-    var li = document.createElement(*li);
+    var li = document.createElement("li");
     li.appendchild(document.createTextNode(input.value));
     ul.appendchild(li);
 }
 
-li.addEventListener("click", function (); {
-var finished = this.classlist.toggle(*done*);
-var removeButton = document.createElement(*button*);
+li.addEventListener("click", function () {
+var finished = this.classlist.toggle("done");
+var removeButton = document.createElement("button");
 removeButton.classlist.add("deleteButton");
+})
+
+if finished (finished) {
+    removeButton.appendchild(document.createTextNode(remove));
+    removeButton.classlist = "deleteButton";
+    li.appendchild(removeButton);
+
+    removeButton.addEventListener("click", function ())
+    this.SVGComponentTransferFunctionElement.remove();
+});
